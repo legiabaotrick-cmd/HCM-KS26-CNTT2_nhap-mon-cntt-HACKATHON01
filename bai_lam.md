@@ -124,9 +124,27 @@ Get-Content logs\tong_hop.txt
 ### Nội dung file logs/tong_hop.txt
 
 ```text
-•	Dòng 1 dùng > (ghi đè, bắt đầu file mới).
-•	Hai dòng sau dùng >> (nối thêm xuống dưới).
-•	Dòng cuối để xem lại file.
+2026-04-28 09:19:29 [INFO] Benh nhan dat lich kham
+2026-04-28 09:23:29 [INFO] Gui tin nhan nhac lich
+2026-04-28 09:27:29 [WARNING] Thoi gian phan hoi cham
+2026-04-28 09:31:29 [WARNING] Anh X-quang dung luong lon
+2026-04-28 09:35:29 [INFO] Bac si cap nhat ho so
+2026-04-28 09:39:29 [WARNING] Anh X-quang dung luong lon
+2026-04-28 09:43:29 [INFO] Bac si cap nhat ho so
+2026-04-28 09:47:29 [INFO] Benh nhan dat lich kham
+2026-04-28 09:51:29 [ERROR] Ket noi he thong ho so that bai
+2026-04-28 09:55:29 [INFO] Benh nhan dat lich kham
+2026-04-28 09:59:29 [INFO] Bac si cap nhat ho so
+2026-04-28 10:03:29 [INFO] Benh nhan dat lich kham
+2026-04-28 10:07:29 [ERROR] Khong tim thay trang /bang-gia-dich-vu (404)
+2026-04-28 10:11:29 [WARNING] Lich kham chieu thu bay sap kin
+2026-04-28 10:15:29 [INFO] Benh nhan dat lich kham
+2026-04-28 10:19:29 [ERROR] Ket noi he thong ho so that bai
+2026-04-28 10:23:29 [INFO] Xac nhan lich hen
+2026-04-28 10:27:29 [ERROR] Ket noi he thong ho so that bai
+2026-04-28 10:31:29 [INFO] Thanh toan thanh cong
+2026-04-28 10:35:29 [ERROR] Dat lich hen that bai
+
 
 
 ```
