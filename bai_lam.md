@@ -1,9 +1,9 @@
 # BÀI LÀM – HACKATHON 01
 
 - **Mã đề:** 14
-- **Họ tên:** 
-- **Lớp:** 
-- **Link repository:** 
+- **Họ tên:Lê Gia Bảo** 
+- **Lớp:HCM-KS26-CNTT2** 
+- **Link repository:https://github.com/legiabaotrick-cmd/HCM-KS26-CNTT2_nhap-mon-cntt-HACKATHON01** 
 - **Hệ điều hành (Windows/macOS):Windows** 
 
 ## 4.2. Thao tác máy tính cơ bản bằng CLI
