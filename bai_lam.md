@@ -47,7 +47,7 @@ Mode                 LastWriteTime         Length Name
 ------        10/27/2026   1:32 AM             65 .env
 ------        10/27/2026   1:32 AM           1079 Clinic.log
 -a----        10/27/2026   1:32 AM           6094 Dieu_tri_thang_4.xlsx
--a----        10/27/2026   1:32 AM             63 Huong_dan_cham_soc.txt
+-a----        10/27/2026   1:32 AM             63 huong_dan_cham_soc.txt
 -a----        10/27/2026   1:32 AM           5736 logo_Nha_Khoa.PNG
 ------        10/27/2026   1:32 AM             22 temp_226.tmp
 
