@@ -29,9 +29,9 @@ cd ..
 Mở PowerShell tại thư mục gốc (trong Explorer, bấm chuột phải vào chỗ trống => open in terminal, rồi gõ lần lượt:
 pwd                                    1. Hiện đường dẫn tuyệt đối thư mục hiện tại
 ls -Force                             2. Liệt kê nội dung, gồm cả file ẩn (.env)
-Move-Item mau_goi_qua.txt docs         3a. Chuyển file txt vào docs
-Move-Item logo_*.png media             3b. Chuyển file logo vào media
-Copy-Item media\logo_*.png backup      4. Sao chép (không phải chuyển) logo vào backup
+Move-Item huong_dan_cham_soc.txt docs         3a. Chuyển file txt vào docs
+Move-Item logo_Nha_Khoa*.png media             3b. Chuyển file logo vào media
+Copy-Item media\logo_Nha_Khoa*.png backup      4. Sao chép (không phải chuyển) logo vào backup
 Remove-Item *.tmp                      5. Xóa file .tmp ở thư mục gốc
 cd logs                                6. Vào logs bằng đường dẫn tương đối 
 ls                                          Liệt kê nội dung 
