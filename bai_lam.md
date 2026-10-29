@@ -26,16 +26,30 @@ cd ..
 ### Kết quả liệt kê toàn bộ dự án (Windows: Get-ChildItem -Recurse -Force; macOS: ls -aR)
 
 ```text
-Mở PowerShell tại thư mục gốc (trong Explorer, bấm chuột phải vào chỗ trống => open in terminal, rồi gõ lần lượt:
-pwd                                    1. Hiện đường dẫn tuyệt đối thư mục hiện tại
-ls -Force                             2. Liệt kê nội dung, gồm cả file ẩn (.env)
-Move-Item huong_dan_cham_soc.txt docs         3a. Chuyển file txt vào docs
-Move-Item logo_Nha_Khoa*.png media             3b. Chuyển file logo vào media
-Copy-Item media\logo_Nha_Khoa*.png backup      4. Sao chép (không phải chuyển) logo vào backup
-Remove-Item *.tmp                      5. Xóa file .tmp ở thư mục gốc
-cd logs                                6. Vào logs bằng đường dẫn tương đối 
-ls                                          Liệt kê nội dung 
-cd  ..                                 	Quay lại thư mục gốc
+PS C:\Users\User\Downloads\starter-kit\starter-kit> Get-ChildItem -Recurse -Force
+
+
+    Directory: C:\Users\User\Downloads\starter-kit\starter-kit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/28/2026   2:35 PM                nha-khoa-website
+-a----        10/28/2026   2:48 PM           3699 bai_lam.md
+-a----        10/28/2026   2:52 PM          18172 BÀI LÀM.docx
+
+
+    Directory: C:\Users\User\Downloads\starter-kit\starter-kit\nha-khoa-website
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+------        10/27/2026   1:32 AM             65 .env
+------        10/27/2026   1:32 AM           1079 Clinic.log
+-a----        10/27/2026   1:32 AM           6094 Dieu_tri_thang_4.xlsx
+-a----        10/27/2026   1:32 AM             63 Huong_dan_cham_soc.txt
+-a----        10/27/2026   1:32 AM           5736 logo_Nha_Khoa.PNG
+------        10/27/2026   1:32 AM             22 temp_226.tmp
 
 
 ```
